@@ -1,9 +1,9 @@
 package hangman.model;
-
+import com.google.inject.Inject;
 public class PowerBonusScore implements GameScore{
 	private int score;	
 
-	
+	@Inject
 	public PowerBonusScore(){
 		score = 0;	
 	}

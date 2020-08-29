@@ -102,7 +102,7 @@ Manejamos el orden del laboratorio
 
 Aqui vemos que las pruebas efectivamente estan correctas
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoPruebasCorrecto2.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoCorrectoPruebas2.PNG">
 
 
 10. Realizamos el add y commit con el codigo que nos brinda el laboratorio
@@ -116,3 +116,38 @@ git commit -m "implementacion del modelo"
 
 11. Y realizamos el push necesario para nuestro repositorio
 
+## Parte 2
+
+En este taller se va a utilizar un contenedor liviano (GoogleGuice) el cual soporta la inyección de las dependencias.
+Y se utilizara unicamente para:
+
+Utilizando el HangmanFactoryMethod (MétodoFabrica) incluya el OriginalScore a la configuración.
+
+Para eso seguimos los siguientes pasos:
+- Revise las dependencias necesarias en el pom.xml.
+Las dependencias necesarias que se necesitaban cambiar en el POM son las siguientes
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/POMmidificado.PNG">
+
+- Se modifico la inyección de dependencias utilizando guice en lugar del método fábrica
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ConstruccionAtravezDeGuice.PNG">
+
+- Y se modifico el archivo en setup Guice para el funcionamiento de este
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/hangmanGuice.PNG">
+
+Y se cambiaron los comportamientos relevantes
+- Original
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectOriginal.PNG">
+-Bonus
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectBonus.PNG">
+-PowerBonus
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectPowerBonus.PNG">
+-English, French y Spanish
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectEnglish.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectFrench.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectSpanish.PNG">
+
+Así damos por acabado este laboratorio
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/hangmanFinal.PNG">

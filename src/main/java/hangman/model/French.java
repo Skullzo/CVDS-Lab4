@@ -1,16 +1,19 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
  */
 package hangman.model;
+
+import com.google.inject.Inject;
 
 /**
  *
  * @author 2106913
  */
 public class French implements Language{
-
+    @Inject
+    public French(){    
+    }
+    
     @Override
     public String[] getFunctionControllerNames() {
         return new String[]{"Jouer","Score Èlevé","Crédits"};

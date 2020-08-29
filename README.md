@@ -149,5 +149,7 @@ Y se cambiaron los comportamientos relevantes
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectFrench.PNG">
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectSpanish.PNG">
 
-Así damos por acabado este laboratorio
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/hangmanFinal.PNG">
+
+Y asi damos finalizado el laboratorio con la imagen del producto final
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/hangmanProductoFinal.PNG">

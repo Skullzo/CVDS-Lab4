@@ -59,11 +59,15 @@ _Para crear una carpeta test, necesitamos crear test dentro la carpeta src, y de
 
 - Bonus Score
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasOriginalScore.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasBonusScore.PNG">
 
 - PowerBonus Score
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasOriginalScore.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasPowerBonusScore.PNG">
+
+Aqui vemos que las pruebas efectivamente estan correctas
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoPruebasCorrecto.PNG">
 
 8. Realizamos el commit con el codigo que nos brinda el laboratorio
 
@@ -74,5 +78,41 @@ git commit -m "implementacion pruebas"
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/commitPruebas.PNG">
 
-9. Ahora realizamos la implementacion de cada uno de los cascarones para su funcionamiento
+9. Ahora realizamos la implementacion de cada uno de los cascarones para su funcionamiento y las pruebas para cada uno de estos
+
+Primero creamos e implementamos la excepcion necesaria
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ExcepcionGameScore.PNG">
+
+Manejamos el orden del laboratorio
+
+- Original Score
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/OriginalScoreImplementacion.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasOriginalScore2.PNG">
+
+- Bonus Score
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/BonusScoreImplementacion.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasBonusScore.PNG">
+
+- PowerBonus Score
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PowerBonusScoreImplementacion.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasPowerBonusScore.PNG">
+
+Aqui vemos que las pruebas efectivamente estan correctas
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoPruebasCorrecto2.PNG">
+
+
+10. Realizamos el add y commit con el codigo que nos brinda el laboratorio
+
+```
+git add .
+git commit -m "implementacion del modelo"
+```
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/commitFinal.PNG">
+
+11. Y realizamos el push necesario para nuestro repositorio
 

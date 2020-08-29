@@ -127,11 +127,11 @@ Para eso seguimos los siguientes pasos:
 - Revise las dependencias necesarias en el pom.xml.
 Las dependencias necesarias que se necesitaban cambiar en el POM son las siguientes
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/POMmidificado.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/POMmodificado.PNG">
 
 - Se modifico la inyección de dependencias utilizando guice en lugar del método fábrica
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ConstruccionAtravezDeGuice.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ConstruccionAtravesDeGuice.PNG">
 
 - Y se modifico el archivo en setup Guice para el funcionamiento de este
 

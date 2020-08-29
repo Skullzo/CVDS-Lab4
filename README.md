@@ -127,7 +127,7 @@ Para eso seguimos los siguientes pasos:
 - Revise las dependencias necesarias en el pom.xml.
 Las dependencias necesarias que se necesitaban cambiar en el POM son las siguientes
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/POMmodificado.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/Pommodificado.PNG">
 
 - Se modifico la inyección de dependencias utilizando guice en lugar del método fábrica
 

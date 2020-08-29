@@ -64,3 +64,15 @@ _Para crear una carpeta test, necesitamos crear test dentro la carpeta src, y de
 - PowerBonus Score
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasOriginalScore.PNG">
+
+8. Realizamos el commit con el codigo que nos brinda el laboratorio
+
+```
+git add .
+git commit -m "implementacion pruebas"
+```
+
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/commitPruebas.PNG">
+
+9. Ahora realizamos la implementacion de cada uno de los cascarones para su funcionamiento
+

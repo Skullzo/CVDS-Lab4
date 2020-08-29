@@ -13,9 +13,19 @@ public class PowerBonusScore implements GameScore{
 	*@pre Recibe dos enteros para hacer verificacion correctCount  , incorrectCount 
 	*@pos Devuelve el resultado después de hacerlo
 	*@return score  	
-	*@throws Ninguna excepción
+	*@throws valorNegativoException
 	*/
-	public int calculateScore(int correctCount, int  incorrectCount){
-		return 0;
+	public int calculateScore(int correctCount, int  incorrectCount) throws GameScoreException{
+		if( correctCount < 0 || incorrectCount <0 ){
+            throw new GameScoreException( GameScoreException.NEGATIVE_NUMBERS);
+        }		
+		for(int i=1 ; i<=correctCount ; i++){
+			score +=  Math.pow(5, i);
+		}
+		score -= incorrectCount*8;
+        if(score < 0) score = 0;
+        if(score > 500) score = 500;
+        return score;
+
 	}
 }

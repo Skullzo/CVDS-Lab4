@@ -1,7 +1,7 @@
 # Laboratorio 4 de CVDS
 
 Este laboratorio tiene como finalidad el aprendizaje sobre Desarrollo Dirigido por Pruebas + DIP + DI + Contenedores Livianos
-El enunciado de este se encuentra dentro del repositorio como un PDf de nombre Laboratorio4CVDS
+El enunciado de este se encuentra dentro del repositorio como un PDF de nombre Laboratorio4CVDS
 
 El diseño de este laboratorio es para el juego conocido como hangman, y se divide en dos partes
 
@@ -18,7 +18,7 @@ git clone https://github.com/PDSW-ECI/LigthwayContainer_DependencyInjection_Hang
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/CascaronesDelModelo.PNG">
 
-3. Se realizo las especificaciones necesarias dentro de los metodos para asegurar la calidad del codigo, y se dejo como valor inicial un return 0
+3. Se realizo las especificaciones necesarias dentro de los métodos para asegurar la calidad del código, y se dejó como valor inicial un return 0
 A continuacion se muestra cada una de las especificaciones
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/EspecificacionOriginalScore.PNG">
 
@@ -32,11 +32,11 @@ git add .
 git commit -m "especificacion metodo"
 ```
 
-5. Se actualizo el POM del archivo para la version 8 de Java, y se agrego la dependencia de JUNIT
+5. Se actualizo el POM del archivo para la versión 8 de Java, y se agregó la dependencia de JUNIT
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ActualizarPOM.PNG">
 
-6. Se realizaron las clases de equivalencia para cada uno de los 3 casos en Excel, se muestran a continuacion
+6. Se realizaron las clases de equivalencia para cada uno de los 3 casos en Excel, se muestran a continuación
 
 - Original Score
 
@@ -65,11 +65,11 @@ _Para crear una carpeta test, necesitamos crear test dentro la carpeta src, y de
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasPowerBonusScore.PNG">
 
-Aqui vemos que las pruebas efectivamente estan correctas
+Aqui vemos que las pruebas efectivamente están correctas
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoCorrectoPruebas.PNG">
 
-8. Realizamos el commit con el codigo que nos brinda el laboratorio
+8. Realizamos el commit con el código que nos brinda el laboratorio
 
 ```
 git add .
@@ -78,9 +78,9 @@ git commit -m "implementacion pruebas"
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/commitPruebas.PNG">
 
-9. Ahora realizamos la implementacion de cada uno de los cascarones para su funcionamiento y las pruebas para cada uno de estos
+9. Ahora realizamos la implementación de cada uno de los cascarones para su funcionamiento y las pruebas para cada uno de estos
 
-Primero creamos e implementamos la excepcion necesaria
+Primero creamos e implementamos la excepción necesaria
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ExcepcionGameScore.PNG">
 
 Manejamos el orden del laboratorio
@@ -100,12 +100,12 @@ Manejamos el orden del laboratorio
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PowerBonusScoreImplementacion.PNG">
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/PruebasPowerBonusScore.PNG">
 
-Aqui vemos que las pruebas efectivamente estan correctas
+Aquí vemos que las pruebas efectivamente están correctas
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoCorrectoPruebas2.PNG">
 
 
-10. Realizamos el add y commit con el codigo que nos brinda el laboratorio
+10. Realizamos el add y commit con el código que nos brinda el laboratorio
 
 ```
 git add .
@@ -119,7 +119,7 @@ git commit -m "implementacion del modelo"
 ## Parte 2
 
 En este taller se va a utilizar un contenedor liviano (GoogleGuice) el cual soporta la inyección de las dependencias.
-Y se utilizara unicamente para:
+Y se utilizara únicamente para:
 
 Utilizando el HangmanFactoryMethod (MétodoFabrica) incluya el OriginalScore a la configuración.
 
@@ -133,7 +133,7 @@ Las dependencias necesarias que se necesitaban cambiar en el POM son las siguien
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ConstruccionAtravesDeGuice.PNG">
 
-- Y se modifico el archivo en setup Guice para el funcionamiento de este
+- Y se modificó el archivo en setup Guice para el funcionamiento de este
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/hangmanGuice.PNG">
 
@@ -150,6 +150,6 @@ Y se cambiaron los comportamientos relevantes
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/injectSpanish.PNG">
 
 
-Y asi damos finalizado el laboratorio con la imagen del producto final
+Y así damos finalizado el laboratorio con la imagen del producto final
 
 <img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/hangmanProductoFinal.PNG">

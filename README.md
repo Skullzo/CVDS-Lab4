@@ -67,7 +67,7 @@ _Para crear una carpeta test, necesitamos crear test dentro la carpeta src, y de
 
 Aqui vemos que las pruebas efectivamente estan correctas
 
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoPruebasCorrecto.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoCorrectoPruebas.PNG">
 
 8. Realizamos el commit con el codigo que nos brinda el laboratorio
 
@@ -81,7 +81,7 @@ git commit -m "implementacion pruebas"
 9. Ahora realizamos la implementacion de cada uno de los cascarones para su funcionamiento y las pruebas para cada uno de estos
 
 Primero creamos e implementamos la excepcion necesaria
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoCorrectoPruebas.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ExcepcionGameScore.PNG">
 
 Manejamos el orden del laboratorio
 

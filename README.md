@@ -81,7 +81,7 @@ git commit -m "implementacion pruebas"
 9. Ahora realizamos la implementacion de cada uno de los cascarones para su funcionamiento y las pruebas para cada uno de estos
 
 Primero creamos e implementamos la excepcion necesaria
-<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/ExcepcionGameScore.PNG">
+<img  src="https://github.com/JuanMunozD/CVDS4/blob/master/img/FuncionamientoCorrectoPruebas.PNG">
 
 Manejamos el orden del laboratorio
 
